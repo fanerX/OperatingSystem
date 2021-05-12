@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.operatingsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/os"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/os"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Menu3"></activity>
+        <activity android:name=".Menu2" />
+        <activity android:name=".Menu1" />
+        <activity
+            android:name=".ProcessOccupationActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EquipmentManagementActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BitmapMemoryActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ThreeProcessControlActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TwoProcessControlActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ProcessControlActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
